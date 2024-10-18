@@ -16,7 +16,7 @@ function fetchAllProducts() {
                                 <p class="card-text">Price: ${product.price} KSH</p>
                                 <button onclick="viewProduct('${product.id}')" class="btn btn-primary btn-sm mb-2">View</button>
                                 <button onclick="editProduct('${product.id}')" class="btn btn-warning btn-sm mb-2 ms-3">Edit</button>
-                                <button onclick="quantityProduct('${product.id}')" class="btn btn-success btn-sm mb-2 ms-3">Quantity</button>
+                                <button onclick="quantityProduct('${product.id}')" id="notAvailable" class="btn btn-success btn-sm mb-2 ms-3">Quantity</button>
                                 <button onclick="deleteProduct('${product.id}')" class="btn btn-danger btn-sm ms-4">Delete</button>
                             </div>
                         </div>
@@ -137,6 +137,7 @@ function deleteProduct(id) {
 }
 
 function quantityProduct(id) {
+    id= document.getElementById("notAvailable")
     alert("Feature not yet available");
 }
 
