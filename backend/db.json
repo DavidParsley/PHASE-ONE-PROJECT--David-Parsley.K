@@ -1,144 +1,144 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Milk",
-        "price": "61",
-        "description": "Fresh whole milk.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h66/h13/15788425052190/89655_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 2,
-        "name": "Bread",
-        "price": "127",
-        "description": "Freshly baked bread.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h1e/h09/17290167975966/25919_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 3,
-        "name": "Sausages",
-        "price": "507",
-        "description": "Delicious chicken sausages.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h38/hb3/17328325263390/20650_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 4,
-        "name": "Sugar",
-        "price": 283,
-        "description": "Refined white sugar 2Kg.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h65/h14/49893013028894/201292_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 5,
-        "name": "Salt",
-        "price": 66,
-        "description": "Fine sea salt for cooking.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h89/hb0/47511106420766/37493_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 6,
-        "name": "Biscuits",
-        "price": 504,
-        "description": "Crunchy and delicious biscuits.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/hff/hc2/16813497712670/8209_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 7,
-        "name": "Bathing Soap",
-        "price": 79,
-        "description": "Geisha Coconut Milk & Honey Bathing Soap",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h64/haf/49586849382430/187562_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 8,
-        "name": "Rice",
-        "price": 1789,
-        "description": "Long-grain basmati rice 5Kg.",
-        "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/21751/1728986403/21751_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 9,
-        "name": " Spaghetti Pasta",
-        "price": 185,
-        "description": "Delicious spaghetti pasta.",
-        "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/140091/1722952804/140091_main.jpg?im=Resize=480"
-      },
-      {
-        "id": 10,
-        "name": "Cooking Oil",
-        "price": 1845,
-        "description": "Refined cooking oil 5L.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h19/h6f/17384319844382/21022_1.jpg?im=Resize=400"
-      },
-      {
-        "id": 11,
-        "name": "Tomatoes",
-        "price": 129,
-        "description": "Fresh tomatoes.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h32/h28/12618776641566/122523_Main.jpg?im=Resize=400"
-      },
-      {
-        "id": 12,
-        "name": "Maize Flour",
-        "price": 123,
-        "description": "Maize Flour,  offers finely sifted maize flour fortified with essential vitamins and minerals, including Vitamin A, B, folic acid, iron, and zinc 2Kg.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/ha6/he2/26779655536670/31014_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 13,
-        "name": " Wheat Flour",
-        "price": 153,
-        "description": "All-purpose Baking flour 2Kg.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h6b/he2/26779663695902/31018_main.jpg?im=Resize=400"
-      },
-      {
-        "id": 14,
-        "name": "Honey",
-        "price": 579,
-        "description": "Pure organic honey.",
-        "image": "https://i5.walmartimages.com/seo/Busy-Bee-Raw-USA-Honey-16-oz-Inverted-Plastic-Bottle-No-Allergens_995dde65-cab5-441e-9890-c4156075f5f6.861bfe698adef73df9bb521ee06c9366.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
-      },
-      {
-        "id": 15,
-        "name": "Tea",
-        "price": 326,
-        "description": "Premium black tea with richness of taste, flavor and aroma.",
-        "image": "https://i5.walmartimages.com/seo/Loose-Tea-Leaf-Black-Kericho-Gold-Blend-of-Kenyas-Finest-Tea-Quality-Brew-True-Black-Tea-500g_4833295e-543a-475e-962c-5224366db1e3.cbdf82653cb3bf6f752ffb4c8262cae7.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
-      },
-      {
-        "id": 16,
-        "name": "Coffee",
-        "price": 752,
-        "description": "Classic instant coffee.",
-        "image": "https://cdn.mafrservices.com/sys-master-root/h29/h1c/17588379254814/41499_main.jpg?im=Resize=400"
-      },
-      {
-          "id": 17,
-          "name": "Nutella",
-          "price": 1000.50,
-          "description": "Delicious  on your bread roll, croissant or crepe , perfect for spreads.",
-          "image": "https://i5.walmartimages.com/seo/Nutella-Hazelnut-Spread-with-Cocoa-for-Breakfast-26-5-oz-Jar_8457cfef-ab75-4bb1-8620-bae6ddd537db.c7d1eb498d47ae519979890cf451d2cf.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
-        },
-        {
-          "id": 18,
-          "name": "Cereal",
-          "price": 894.00,
-          "description": "Healthy breakfast cereal with whole grains.",
-          "image": "https://cdn.mafrservices.com/sys-master-root/h8d/h22/17328348037150/54079_main.jpg?im=Resize=400"
-        },
-        {
-          "id": 19,
-          "name": "Yogurt",
-          "price": 120.00,
-          "description": "Creamy plain yogurt .",
-          "image": "https://cdn.mafrservices.com/sys-master-root/hf7/h06/17307042250782/52857_main.jpg?im=Resize=400"
-        },
-        {
-          "id": 20,
-          "name": "Soda",
-          "price": 127.00,
-          "description": "A carbonated, sweetened soft drink.",
-          "image": "https://cdn.mafrservices.com/sys-master-root/h7e/h11/17013604843550/24191_main.jpg?im=Resize=400"
-        }
-    ]
-  }
+  "products": [
+    {
+      "id": "1",
+      "name": "Milk",
+      "price": "61",
+      "description": "Fresh whole milk.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h66/h13/15788425052190/89655_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "2",
+      "name": "Bread",
+      "price": "127",
+      "description": "Freshly baked bread.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h1e/h09/17290167975966/25919_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "3",
+      "name": "Sausages",
+      "price": "507",
+      "description": "Delicious chicken sausages.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h38/hb3/17328325263390/20650_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "4",
+      "name": "Sugar",
+      "price": 283,
+      "description": "Refined white sugar 2Kg.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h65/h14/49893013028894/201292_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "5",
+      "name": "Salt",
+      "price": 66,
+      "description": "Fine sea salt for cooking.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h89/hb0/47511106420766/37493_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "6",
+      "name": "Biscuits",
+      "price": 504,
+      "description": "Crunchy and delicious biscuits.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/hff/hc2/16813497712670/8209_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "7",
+      "name": "Bathing Soap",
+      "price": 79,
+      "description": "Geisha Coconut Milk & Honey Bathing Soap",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h64/haf/49586849382430/187562_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "8",
+      "name": "Rice",
+      "price": 1789,
+      "description": "Long-grain basmati rice 5Kg.",
+      "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/21751/1728986403/21751_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "9",
+      "name": " Spaghetti Pasta",
+      "price": 185,
+      "description": "Delicious spaghetti pasta.",
+      "image": "https://cdn.mafrservices.com/pim-content/KEN/media/product/140091/1722952804/140091_main.jpg?im=Resize=480"
+    },
+    {
+      "id": "10",
+      "name": "Cooking Oil",
+      "price": 1845,
+      "description": "Refined cooking oil 5L.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h19/h6f/17384319844382/21022_1.jpg?im=Resize=400"
+    },
+    {
+      "id": "11",
+      "name": "Tomatoes",
+      "price": 129,
+      "description": "Fresh tomatoes.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h32/h28/12618776641566/122523_Main.jpg?im=Resize=400"
+    },
+    {
+      "id": "12",
+      "name": "Maize Flour",
+      "price": 123,
+      "description": "Maize Flour,  offers finely sifted maize flour fortified with essential vitamins and minerals, including Vitamin A, B, folic acid, iron, and zinc 2Kg.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/ha6/he2/26779655536670/31014_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "13",
+      "name": " Wheat Flour",
+      "price": 153,
+      "description": "All-purpose Baking flour 2Kg.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h6b/he2/26779663695902/31018_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "14",
+      "name": "Honey",
+      "price": 579,
+      "description": "Pure organic honey.",
+      "image": "https://i5.walmartimages.com/seo/Busy-Bee-Raw-USA-Honey-16-oz-Inverted-Plastic-Bottle-No-Allergens_995dde65-cab5-441e-9890-c4156075f5f6.861bfe698adef73df9bb521ee06c9366.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+    },
+    {
+      "id": "15",
+      "name": "Tea",
+      "price": 326,
+      "description": "Premium black tea with richness of taste, flavor and aroma.",
+      "image": "https://i5.walmartimages.com/seo/Loose-Tea-Leaf-Black-Kericho-Gold-Blend-of-Kenyas-Finest-Tea-Quality-Brew-True-Black-Tea-500g_4833295e-543a-475e-962c-5224366db1e3.cbdf82653cb3bf6f752ffb4c8262cae7.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+    },
+    {
+      "id": "16",
+      "name": "Coffee",
+      "price": 752,
+      "description": "Classic instant coffee.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h29/h1c/17588379254814/41499_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "17",
+      "name": "Nutella",
+      "price": 1000.5,
+      "description": "Delicious  on your bread roll, croissant or crepe , perfect for spreads.",
+      "image": "https://i5.walmartimages.com/seo/Nutella-Hazelnut-Spread-with-Cocoa-for-Breakfast-26-5-oz-Jar_8457cfef-ab75-4bb1-8620-bae6ddd537db.c7d1eb498d47ae519979890cf451d2cf.jpeg?odnHeight=640&odnWidth=640&odnBg=FFFFFF"
+    },
+    {
+      "id": "18",
+      "name": "Cereal",
+      "price": 894,
+      "description": "Healthy breakfast cereal with whole grains.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h8d/h22/17328348037150/54079_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "19",
+      "name": "Yogurt",
+      "price": 120,
+      "description": "Creamy plain yogurt .",
+      "image": "https://cdn.mafrservices.com/sys-master-root/hf7/h06/17307042250782/52857_main.jpg?im=Resize=400"
+    },
+    {
+      "id": "20",
+      "name": "Soda",
+      "price": 127,
+      "description": "A carbonated, sweetened soft drink.",
+      "image": "https://cdn.mafrservices.com/sys-master-root/h7e/h11/17013604843550/24191_main.jpg?im=Resize=400"
+    }
+  ]
+}

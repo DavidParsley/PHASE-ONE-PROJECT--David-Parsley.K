@@ -99,7 +99,7 @@ function editProduct(id) {
             editProductForm.onsubmit = function(event) {
                 event.preventDefault()
 
-                fetch(`https://phase-one-project-david-parsley-k.onrender.com/products/${id}`, {
+                fetch(`http://localhost:3000/products/${id}`, {
                     method: 'PATCH',
                     body: JSON.stringify({
                         name: document.getElementById("editProductName").value,
