@@ -24,3 +24,11 @@ body {
     border-radius: 15px;
 
 }
+
+/* product details (box) design */
+#productDetails{
+    /* background-color: rgb(240, 240, 240); */
+    padding: 10px 28px;
+    border-radius: 19px; 
+    max-width: 360px;
+}
