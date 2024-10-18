@@ -64,3 +64,23 @@ addProductForm.addEventListener("submit", (event) => {
         console.log("Finished adding product")
     })
 })
+
+// View Product Details
+function viewProduct(id) {
+    fetch(`http://localhost:3000/products/${id}`)
+        .then(res => res.json())
+        .then(product => {
+            const viewProductContent = document.getElementById("viewProductContent")
+            viewProductContent.innerHTML = `
+                <img src="${product.image}" class="img-fluid" alt="${product.name}">
+                <br><hr>
+                <br>
+                <h5>${product.name}</h5>
+                <br>
+                <p>Price: ${product.price} KSH</p>
+                <p>Description: ${product.description}</p>
+            `
+            const viewProductModal = new bootstrap.Modal(document.getElementById('viewProductModal'))
+            viewProductModal.show()
+        })
+}
