@@ -88,6 +88,35 @@
                 </div>
             </div>
         </div>
+    </div>
+    
+    <!-- Edit Product Modal -->
+    <div class="modal fade" id="editProductModal" tabindex="-1" aria-labelledby="editProductLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editProductLabel">Edit Product</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="editProductForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="editProductName" required placeholder="Product Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" id="editProductPrice" required placeholder="Product Price">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="editProductImage" required placeholder="Image URL">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="editProductDescription" rows="3" placeholder="Product Description" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-warning">Update Product</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>    
 
 
