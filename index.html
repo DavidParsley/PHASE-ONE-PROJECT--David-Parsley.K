@@ -38,7 +38,36 @@
         <button type="button" class="btn btn-primary" id="addProduct">
             Add Product
         </button>
-    </div>    
+    </div>
+    
+    <!-- Add Product Modal -->
+    <div class="modal fade" id="addProductModal" tabindex="-1" aria-labelledby="addProductLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="addProductLabel">Add Product</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="addProductForm">
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="productName" required placeholder="Product Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="number" class="form-control" id="productPrice" required placeholder="Product Price">
+                        </div>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" id="productImage" required placeholder="Image URL">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="productDescription" rows="3" placeholder="Product Description" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Add Product</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>         
 
 
 
