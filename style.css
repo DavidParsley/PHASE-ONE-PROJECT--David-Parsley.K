@@ -32,3 +32,37 @@ body {
     border-radius: 19px; 
     max-width: 360px;
 }
+
+/* Footer */
+.footer-basic {
+    padding:10px 0;
+    border-radius: 8px;
+  }
+  
+   .footer-basic ul {
+    text-align:center;
+    font-size:19px;
+    line-height:1.5;
+  }
+  
+  .footer-basic li {
+    padding:0 10.5px;
+  }
+
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:line;
+    opacity:0.6;
+  }
+  
+  .footer-basic ul a:hover {
+    color: green;
+  }
+  
+ 
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:19px;
+    color: green;
+  } 
