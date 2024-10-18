@@ -5,7 +5,7 @@ function fetchAllProducts() {
         .then((data) => {
             const productsRow = document.getElementById("productsRow")
             productsRow.innerHTML = "" // (Clears existing products to avoid duplicates.) 
-                       
+
             data.forEach(product => {
                 productsRow.innerHTML += `
                     <div class="col-md-3 mb-4">
@@ -135,6 +135,11 @@ function deleteProduct(id) {
         fetchAllProducts()
     })
 }
+
+function quantityProduct(id) {
+    alert("Feature not yet available");
+}
+
 
 // Initialize the Website 
 document.addEventListener("DOMContentLoaded", () => {
