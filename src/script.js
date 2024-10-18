@@ -4,7 +4,8 @@ function fetchAllProducts() {
         .then((res) => res.json())
         .then((data) => {
             const productsRow = document.getElementById("productsRow")
-            productsRow.innerHTML = "" // (Clears existing products to avoid duplicates.)            
+            productsRow.innerHTML = "" // (Clears existing products to avoid duplicates.) 
+                       
             data.forEach(product => {
                 productsRow.innerHTML += `
                     <div class="col-md-3 mb-4">
