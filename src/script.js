@@ -135,3 +135,9 @@ function deleteProduct(id) {
     })
 }
 
+// Initialize the Website 
+document.addEventListener("DOMContentLoaded", () => {
+    fetchAllProducts()
+})
+
+
