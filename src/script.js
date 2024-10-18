@@ -1,6 +1,6 @@
 // Fetch all products
 function fetchAllProducts() {
-    fetch("http://localhost:3000/products")
+    fetch("https://phase-one-project-david-parsley-k.onrender.com//products")
         .then((res) => res.json())
         .then((data) => {
             const productsRow = document.getElementById("productsRow")
@@ -43,7 +43,7 @@ addProductForm.addEventListener("submit", (event) => {
     const image = document.getElementById("productImage").value
     const description = document.getElementById("productDescription").value
 
-    fetch("http://localhost:3000/products", {
+    fetch("https://phase-one-project-david-parsley-k.onrender.com//products", {
         method: 'POST',
         body: JSON.stringify({
             name: name,
@@ -67,7 +67,7 @@ addProductForm.addEventListener("submit", (event) => {
 
 // View Product Details
 function viewProduct(id) {
-    fetch(`http://localhost:3000/products/${id}`)
+    fetch(`https://phase-one-project-david-parsley-k.onrender.com//products/${id}`)
         .then(res => res.json())
         .then(product => {
             const viewProductContent = document.getElementById("viewProductContent")
@@ -87,7 +87,7 @@ function viewProduct(id) {
 
 // Edit Product
 function editProduct(id) {
-    fetch(`http://localhost:3000/products/${id}`)
+    fetch(`https://phase-one-project-david-parsley-k.onrender.com//products/${id}`)
         .then(res => res.json())
         .then(product => {
             document.getElementById("editProductName").value = product.name
@@ -99,7 +99,7 @@ function editProduct(id) {
             editProductForm.onsubmit = function(event) {
                 event.preventDefault()
 
-                fetch(`http://localhost:3000/products/${id}`, {
+                fetch(`https://phase-one-project-david-parsley-k.onrender.com//products/${id}`, {
                     method: 'PATCH',
                     body: JSON.stringify({
                         name: document.getElementById("editProductName").value,
@@ -126,7 +126,7 @@ function editProduct(id) {
 
 // Delete Product
 function deleteProduct(id) {
-    fetch(`http://localhost:3000/products/${id}`, {
+    fetch(`https://phase-one-project-david-parsley-k.onrender.com//products/${id}`, {
         method: 'DELETE',
     })
     .then(() => {
