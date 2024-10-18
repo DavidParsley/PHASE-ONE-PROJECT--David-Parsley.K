@@ -84,3 +84,41 @@ function viewProduct(id) {
             viewProductModal.show()
         })
 }
+
+// Edit Product
+function editProduct(id) {
+    fetch(`http://localhost:3000/products/${id}`)
+        .then(res => res.json())
+        .then(product => {
+            document.getElementById("editProductName").value = product.name
+            document.getElementById("editProductPrice").value = product.price
+            document.getElementById("editProductImage").value = product.image
+            document.getElementById("editProductDescription").value = product.description
+
+            const editProductForm = document.getElementById("editProductForm")
+            editProductForm.onsubmit = function(event) {
+                event.preventDefault()
+
+                fetch(`https://phase-one-project-david-parsley-k.onrender.com/products/${id}`, {
+                    method: 'PATCH',
+                    body: JSON.stringify({
+                        name: document.getElementById("editProductName").value,
+                        price: document.getElementById("editProductPrice").value,
+                        image: document.getElementById("editProductImage").value,
+                        description: document.getElementById("editProductDescription").value
+                    }),
+                    headers: {
+                        'Content-type': 'application/json',
+                    }
+                })
+                .then(() => {
+                    console.log("Product edited")
+                    fetchAllProducts()
+                    const editProductModal = bootstrap.Modal.getInstance(document.getElementById('editProductModal'))
+                    editProductModal.hide()
+                })
+            }
+            const editProductModal = new bootstrap.Modal(document.getElementById('editProductModal'))
+            editProductModal.show()
+        })
+}
