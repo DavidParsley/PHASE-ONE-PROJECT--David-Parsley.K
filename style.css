@@ -6,3 +6,12 @@ body {
     max-width: 850px;
     
 }
+
+/* Nav bar */
+#companyName{
+    color: green;
+}
+
+#settings {
+    color: red;
+}
