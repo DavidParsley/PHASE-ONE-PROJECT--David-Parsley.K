@@ -137,8 +137,8 @@ function deleteProduct(id) {
 }
 
 function quantityProduct(id) {
-    id= document.getElementById("notAvailable")
-    alert("Feature not yet available");
+    id = document.getElementById("notAvailable")
+    alert("Feature not yet Available");
 }
 
 
