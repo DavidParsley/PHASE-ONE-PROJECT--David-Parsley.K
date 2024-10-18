@@ -24,3 +24,43 @@ function fetchAllProducts() {
             })
         })
 }
+
+// Add Product
+const addProductForm = document.getElementById("addProductForm")
+const addProductButton = document.getElementById("addProduct")
+
+addProductButton.addEventListener("click", () => {
+    addProductForm.reset()
+    const addProductModal = new bootstrap.Modal(document.getElementById('addProductModal'))
+    addProductModal.show()
+})
+
+addProductForm.addEventListener("submit", (event) => {
+    event.preventDefault()
+
+    const name = document.getElementById("productName").value
+    const price = document.getElementById("productPrice").value
+    const image = document.getElementById("productImage").value
+    const description = document.getElementById("productDescription").value
+
+    fetch("http://localhost:3000/products", {
+        method: 'POST',
+        body: JSON.stringify({
+            name: name,
+            price: price,
+            image: image,
+            description: description
+        }),
+        headers: {
+            'Content-type': 'application/json',
+        }
+    })
+    .then((response) => response.json())
+    .then((product) => {
+        console.log("Product added:", product)
+        fetchAllProducts()
+        const addProductModal = bootstrap.Modal.getInstance(document.getElementById('addProductModal'))
+        addProductModal.hide() 
+        console.log("Finished adding product")
+    })
+})
