@@ -122,3 +122,16 @@ function editProduct(id) {
             editProductModal.show()
         })
 }
+
+
+// Delete Product
+function deleteProduct(id) {
+    fetch(`http://localhost:3000/products/${id}`, {
+        method: 'DELETE',
+    })
+    .then(() => {
+        console.log("Product deleted")
+        fetchAllProducts()
+    })
+}
+
