@@ -18,7 +18,7 @@ levels effortlessly and will be available in future updates.
 * And you are all done
 
 ## Live server
-* Project Slides ()
+* Project Slides (https://docs.google.com/presentation/d/1ucJRcZvnqgeHK79UlilimzILDRjgiv6RstSAKE0L95g/edit?usp=sharing)
 * You can view the web live on (https://davidparsley.github.io/PHASE-ONE-PROJECT--David-Parsley.K/)
 * Render Link (https://phase-one-project-david-parsley-k.onrender.com/products)
 
