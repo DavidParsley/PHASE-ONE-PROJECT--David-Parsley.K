@@ -142,7 +142,7 @@ function quantityProduct(id) {
 }
 
 
-// Initialize the Website 
+// Initializing the Website 
 document.addEventListener("DOMContentLoaded", () => {
     fetchAllProducts()
 })

@@ -1,5 +1,5 @@
 # Stock Smart Inc.
-#### The Website is my Fresh Foods and eCommerce management site, 18/10/2024
+#### This is my Fresh Foods and eCommerce Management Website, 18/10/2024
 #### **By David Parsley**
 ## Description
 Stock Smart is a website designed for small to medium shop owners seeking efficient inventory management. 
