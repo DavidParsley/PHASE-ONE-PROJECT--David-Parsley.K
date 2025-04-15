@@ -1,6 +1,6 @@
 // Fetch cron-job defualt route
 function index() {
-    fetch("https://phase-one-project-david-parsley-k.onrender.com/")
+    fetch("https://phase-one-project-david-parsley-k.onrender.com/status")
         .then(() => {
             console.log("Welcome to StockSmart");
         })
