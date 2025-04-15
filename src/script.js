@@ -1,3 +1,15 @@
+// Fetch cron-job defualt route
+function index() {
+    fetch("https://phase-one-project-david-parsley-k.onrender.com/")
+        .then(() => {
+            console.log("Welcome to StockSmart");
+        })
+        .catch((error) => {
+            console.error('There was a problem with the fetch operation:', error);
+        });
+}
+
+
 // Fetch all products
 function fetchAllProducts() {
     fetch("https://phase-one-project-david-parsley-k.onrender.com/products")
